@@ -18,7 +18,10 @@ const App = () => {
       <p>
         And you have abilities like {skill1} and {skill2}
       </p>
-      <Hello />
+      {/* props to be pass on the Hello component as an argument */}
+      <Hello name="Joe" />
+      <Hello name="Zen" />
+      <Hello name="Aloha" />
     </div>
   );
 };
